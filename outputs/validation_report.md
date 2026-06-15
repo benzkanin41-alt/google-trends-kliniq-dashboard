@@ -1,34 +1,25 @@
 # Google Trends Clinic Dashboard Validation
 
-Generated on 2026-06-13.
-
-## Local URL
-
-- URL: http://127.0.0.1:8877/
-- Served file: `outputs/index.html`
-- HTTP GET check: `200`, response size `839401` bytes.
-
-## Data Completeness
-
+- Generated: 2026-06-15T15:17:25+00:00
+- Requested range: 2022-01-01 to 2026-06-15
+- Refresh status: `stale_fallback_after_fetch_failure`
+- Fetch error: `Failed to fetch timeline single THE KLINIQ: None`
+- Geography: TH / Thailand
 - Canonical brand count: `17`
-- Single-brand weekly series length: `233` weekly points for every brand.
-- Comparison weekly series length: `233` weekly points for every brand.
-- Data range requested from Google Trends: `2022-01-01` to `2026-06-13`.
-- Geography: Thailand (`TH`).
-- Grain: weekly.
+- Single-brand weekly series lengths: `[233]`
+- Comparison weekly series lengths: `[233]`
+- HTML exists: `True`
+- HTML size bytes: `839401`
+- HTML embeds generated data: `True`
 
-## Browser QA
+## Caveats
 
-- Desktop load check: `17` brand options, `5` metric cards, active `singlePanel`, no console errors returned by the browser log check.
-- Interaction check: selecting `Romrawin` updated the selected brand and chart title; compare tab opened with `17` checkboxes and `5` default selected names.
-- Desktop layout check: no horizontal overflow detected at default viewport.
-- Mobile layout check: no horizontal overflow detected at `390 x 844`; toolbar collapsed to one column; single chart remained visible.
-- Screenshot QA file saved under `work/qa_desktop.png`.
+- Google Trends values are relative indices, not absolute search volumes.
+- Low-volume terms can return zeros due to rounding/privacy thresholds.
+- Generic names such as APEX, SLC, L Clinic, Acne Lab, Ritz, and acronym-style brands can include non-brand intent despite clinic aliases.
+- Alias mapping is a query design, not a legal-brand verification table; review ambiguous names before making investment decisions.
 
-## Known Caveats
+## Automation Notes
 
-- Google Trends reports relative search interest indices, not absolute search volume.
-- `single_index` is normalized within each brand alias group and should not be compared level-for-level across brands.
-- `comparison_index` is anchored/rescaled through `THE KLINIQ` so selected brands can be compared on one chart; it is directional and relative, not a replacement for raw search-volume data.
-- Generic or acronym-like names such as `APEX`, `SLC`, `L clinic`, `Acne lab`, `KKC clinic`, and `THE RITZ clinic` may include unrelated search intent despite clinic-oriented aliases.
-- `Souel clinic` is ambiguous; `Seoul Clinic` was included as a likely spelling variant and should be reviewed if this is used for an investment memo.
+- This validation is file/data validation suitable for GitHub Actions.
+- Browser rendering should be checked manually after material HTML or JavaScript changes.

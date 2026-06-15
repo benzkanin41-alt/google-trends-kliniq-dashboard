@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import math
+import os
 import statistics
 import time
 import urllib.parse
@@ -1364,7 +1365,12 @@ def write_methodology(payload: dict[str, Any]) -> Path:
     return path
 
 
-def write_validation_report(payload: dict[str, Any], html_path: Path) -> Path:
+def write_validation_report(
+    payload: dict[str, Any],
+    html_path: Path,
+    refresh_status: str = "fresh",
+    fetch_error: str | None = None,
+) -> Path:
     path = OUTPUTS / "validation_report.md"
     single_lengths = sorted({len(rows) for rows in payload["series"]["single_index"].values()})
     comparison_lengths = sorted({len(rows) for rows in payload["series"]["comparison_index"].values()})
@@ -1379,6 +1385,8 @@ def write_validation_report(payload: dict[str, Any], html_path: Path) -> Path:
         "",
         f"- Generated: {FETCHED_AT}",
         f"- Requested range: {START_DATE} to {END_DATE}",
+        f"- Refresh status: `{refresh_status}`",
+        f"- Fetch error: `{fetch_error or ''}`",
         f"- Geography: {GEO} / Thailand",
         f"- Canonical brand count: `{len(payload['brands'])}`",
         f"- Single-brand weekly series lengths: `{single_lengths}`",
@@ -1405,8 +1413,25 @@ def write_validation_report(payload: dict[str, Any], html_path: Path) -> Path:
 def main() -> None:
     OUTPUTS.mkdir(parents=True, exist_ok=True)
     client = TrendsClient()
-    single = build_single_series(client)
-    comparison = build_comparison_series(client)
+    try:
+        single = build_single_series(client)
+        comparison = build_comparison_series(client)
+    except Exception as exc:
+        data_path = OUTPUTS / "google_trends_data.json"
+        html_path = OUTPUTS / "index.html"
+        allow_stale = os.environ.get("ALLOW_STALE_ON_FETCH_FAILURE") == "1"
+        if allow_stale and data_path.exists() and html_path.exists():
+            payload = json.loads(data_path.read_text(encoding="utf-8"))
+            validation_path = write_validation_report(
+                payload,
+                html_path,
+                refresh_status="stale_fallback_after_fetch_failure",
+                fetch_error=str(exc),
+            )
+            print(f"[warning] Google Trends fetch failed; kept previous dashboard snapshot: {exc}")
+            print(f"[done] Validation: {validation_path}")
+            return
+        raise
     payload = dashboard_payload(single, comparison)
 
     (OUTPUTS / "google_trends_data.json").write_text(

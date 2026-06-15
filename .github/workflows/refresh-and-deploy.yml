@@ -16,6 +16,7 @@ permissions:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  ALLOW_STALE_ON_FETCH_FAILURE: "1"
 
 concurrency:
   group: github-pages
