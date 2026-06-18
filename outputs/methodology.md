@@ -1,8 +1,8 @@
 # Google Trends Clinic Dashboard Methodology
 
-- Generated: 2026-06-13T04:39:10+00:00
+- Generated: 2026-06-18T06:50:59+00:00
 - Geography: TH / Thailand
-- Range: 2022-01-01 to 2026-06-13
+- Range: 2022-01-01 to 2026-06-18
 - Grain: weekly
 - Source: Google Trends <https://trends.google.com/trends/>
 

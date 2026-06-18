@@ -1,15 +1,15 @@
 # Google Trends Clinic Dashboard Validation
 
-- Generated: 2026-06-15T15:17:25+00:00
-- Requested range: 2022-01-01 to 2026-06-15
-- Refresh status: `stale_fallback_after_fetch_failure`
-- Fetch error: `Failed to fetch timeline single THE KLINIQ: None`
+- Generated: 2026-06-18T06:50:59+00:00
+- Requested range: 2022-01-01 to 2026-06-18
+- Refresh status: `fresh`
+- Fetch error: ``
 - Geography: TH / Thailand
 - Canonical brand count: `17`
-- Single-brand weekly series lengths: `[233]`
-- Comparison weekly series lengths: `[233]`
+- Single-brand weekly series lengths: `[234]`
+- Comparison weekly series lengths: `[234]`
 - HTML exists: `True`
-- HTML size bytes: `839401`
+- HTML size bytes: `842799`
 - HTML embeds generated data: `True`
 
 ## Caveats
