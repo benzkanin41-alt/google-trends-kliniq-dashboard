@@ -10,7 +10,7 @@ on:
     - cron: "0 7 * * 1"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -42,6 +42,24 @@ jobs:
 
       - name: Validate generated outputs
         run: python scripts/check_outputs.py
+
+      - name: Persist fresh scheduled outputs
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          if grep -q 'Refresh status: `fresh`' outputs/validation_report.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add outputs
+            if git diff --cached --quiet; then
+              echo "No refreshed output changes to commit."
+            else
+              git commit -m "Refresh Google Trends dashboard data [skip ci]"
+              git push
+            fi
+          else
+            echo "Skipping output commit because Google Trends refresh used fallback."
+            grep "Refresh status" outputs/validation_report.md || true
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
