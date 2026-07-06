@@ -1,15 +1,15 @@
 # Google Trends Clinic Dashboard Validation
 
-- Generated: 2026-06-18T06:50:59+00:00
-- Requested range: 2022-01-01 to 2026-06-18
+- Generated: 2026-07-06T11:39:16+00:00
+- Requested range: 2022-01-01 to 2026-07-06
 - Refresh status: `fresh`
 - Fetch error: ``
 - Geography: TH / Thailand
 - Canonical brand count: `17`
-- Single-brand weekly series lengths: `[234]`
-- Comparison weekly series lengths: `[234]`
+- Single-brand weekly series lengths: `[237]`
+- Comparison weekly series lengths: `[237]`
 - HTML exists: `True`
-- HTML size bytes: `842799`
+- HTML size bytes: `852129`
 - HTML embeds generated data: `True`
 
 ## Caveats
