@@ -8,7 +8,7 @@ This repository publishes `outputs/index.html` to GitHub Pages through GitHub Ac
 
 ## Refresh Schedule
 
-The workflow runs every Monday at 14:00 Asia/Bangkok, represented as `0 7 * * 1` in GitHub Actions cron because scheduled workflows run in UTC by default.
+The workflow runs every Monday at 09:00 Asia/Bangkok using GitHub Actions' timezone-aware schedule (`cron: 0 9 * * 1`, `timezone: Asia/Bangkok`).
 
 Manual refresh is also available from the Actions tab with `workflow_dispatch`.
 

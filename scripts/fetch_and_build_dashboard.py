@@ -471,7 +471,7 @@ def dashboard_payload(single: dict[str, list[dict[str, Any]]], comparison: dict[
                 "Each canonical brand is represented by an alias expression joined with '+', which Google Trends parses as multiple broad keywords within one comparison item.",
                 "single_index is the standard Google Trends 0-100 index for each canonical alias group, normalized within that brand over the selected time range.",
                 "comparison_index is anchored through THE KLINIQ because Google Trends direct comparison is limited to small groups; groups were rescaled using the shared THE KLINIQ series and then normalized to the cross-brand maximum.",
-                "The data is weekly, Thailand-only, web search, all categories, from 2022-01-01 through 2026-06-13.",
+                f"The data is weekly, Thailand-only, web search, all categories, from {START_DATE} through {END_DATE}.",
             ],
             "limitations": [
                 "Google Trends values are relative indices, not absolute search volumes.",
@@ -489,7 +489,7 @@ def dashboard_payload(single: dict[str, list[dict[str, Any]]], comparison: dict[
             {
                 "title": "Google Trends",
                 "url": "https://trends.google.com/trends/",
-                "publication_date": "Live service; extracted 2026-06-13",
+                "publication_date": f"Live service; extracted {END_DATE}",
                 "used_for": "Weekly Thailand search-interest source data.",
             },
             {
@@ -871,7 +871,7 @@ HTML_TEMPLATE = r"""<!doctype html>
 <body>
   <header>
     <h1>Google Trends Clinic Dashboard</h1>
-    <p class="subhead">Thailand weekly search interest, 2022-01-01 to 2026-06-13. Data source: Google Trends. Extracted: <span id="fetchedAt"></span>.</p>
+    <p class="subhead">Thailand weekly search interest, <span id="rangeStart"></span> to <span id="rangeEnd"></span>. Data source: Google Trends. Extracted: <span id="fetchedAt"></span>.</p>
   </header>
 
   <main>
@@ -1026,6 +1026,8 @@ HTML_TEMPLATE = r"""<!doctype html>
 
     function setupControls() {
       document.getElementById('fetchedAt').textContent = DATA.metadata.fetched_at_utc;
+      document.getElementById('rangeStart').textContent = DATA.metadata.start_date;
+      document.getElementById('rangeEnd').textContent = DATA.metadata.end_date;
       const select = document.getElementById('brandSelect');
       select.innerHTML = DATA.brands.map(b => `<option value="${b.id}">${escapeHtml(b.canonical)}</option>`).join('');
       select.addEventListener('change', () => renderSingle(select.value));
