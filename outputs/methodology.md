@@ -1,8 +1,8 @@
 # Google Trends Clinic Dashboard Methodology
 
-- Generated: 2026-07-11T02:57:44+00:00
+- Generated: 2026-07-13T05:20:09+00:00
 - Geography: TH / Thailand
-- Range: 2022-01-01 to 2026-07-11
+- Range: 2022-01-01 to 2026-07-13
 - Grain: weekly
 - Source: Google Trends <https://trends.google.com/trends/>
 
@@ -11,7 +11,7 @@
 - Each canonical brand is represented by an alias expression joined with '+', which Google Trends parses as multiple broad keywords within one comparison item.
 - single_index is the standard Google Trends 0-100 index for each canonical alias group, normalized within that brand over the selected time range.
 - comparison_index is anchored through THE KLINIQ because Google Trends direct comparison is limited to small groups; groups were rescaled using the shared THE KLINIQ series and then normalized to the cross-brand maximum.
-- The data is weekly, Thailand-only, web search, all categories, from 2022-01-01 through 2026-07-11.
+- The data is weekly, Thailand-only, web search, all categories, from 2022-01-01 through 2026-07-13.
 
 ## Limitations
 
