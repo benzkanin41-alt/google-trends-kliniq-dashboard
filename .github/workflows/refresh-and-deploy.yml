@@ -6,8 +6,8 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    # Every Monday at 09:00 in Bangkok time.
-    - cron: "0 9 * * 1"
+    # Every Monday at 14:00 in Bangkok time.
+    - cron: "0 14 * * 1"
       timezone: "Asia/Bangkok"
 
 permissions:
@@ -26,6 +26,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.freshness.outputs.should_deploy }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -39,38 +41,49 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Refresh Google Trends data
+        if: github.event_name != 'push'
         run: python scripts/fetch_and_build_dashboard.py
 
       - name: Validate generated outputs
         run: python scripts/check_outputs.py
 
-      - name: Persist fresh scheduled outputs
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      - name: Decide whether to deploy
+        id: freshness
         run: |
-          if grep -q 'Refresh status: `fresh`' outputs/validation_report.md; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add outputs
-            if git diff --cached --quiet; then
-              echo "No refreshed output changes to commit."
-            else
-              git commit -m "Refresh Google Trends dashboard data [skip ci]"
-              git push
-            fi
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+          elif grep -q 'Refresh status: `fresh`' outputs/validation_report.md; then
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
           else
-            echo "Skipping output commit because Google Trends refresh used fallback."
-            grep "Refresh status" outputs/validation_report.md || true
+            echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Google Trends refresh was throttled; preserving the last fresh Pages deployment."
+          fi
+
+      - name: Persist fresh scheduled outputs
+        if: steps.freshness.outputs.should_deploy == 'true' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs
+          if git diff --cached --quiet; then
+            echo "No refreshed output changes to commit."
+          else
+            git commit -m "Refresh Google Trends dashboard data [skip ci]"
+            git push
           fi
 
       - name: Configure Pages
+        if: steps.freshness.outputs.should_deploy == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: steps.freshness.outputs.should_deploy == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: outputs
 
   deploy:
+    if: needs.build.outputs.should_deploy == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
