@@ -712,6 +712,26 @@ HTML_TEMPLATE = r"""<!doctype html>
       margin: 3px 0 0;
       font-size: 12px;
     }
+    .chart-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+      margin: 2px 0 8px;
+      font-size: 12px;
+      color: #334155;
+    }
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+    }
+    .legend-swatch {
+      flex: 0 0 10px;
+      width: 10px;
+      height: 10px;
+    }
     canvas {
       width: 100%;
       display: block;
@@ -944,6 +964,7 @@ HTML_TEMPLATE = r"""<!doctype html>
               <p class="chart-caption">Cross-brand index, anchored/rescaled; hover for weekly value.</p>
             </div>
           </div>
+          <div class="chart-legend" id="compareLegend" aria-label="Selected brands"></div>
           <canvas id="compareChart"></canvas>
         </div>
       </div>
@@ -1170,26 +1191,6 @@ HTML_TEMPLATE = r"""<!doctype html>
         ctx.stroke();
       });
 
-      if (options.mode !== 'mini' && seriesList.length > 1) {
-        let legendX = pad.left;
-        let legendY = 10;
-        ctx.font = '12px Segoe UI, Arial';
-        seriesList.forEach((series, idx) => {
-          const color = series.color || COLORS[idx % COLORS.length];
-          ctx.fillStyle = color;
-          ctx.fillRect(legendX, legendY, 10, 10);
-          ctx.fillStyle = '#334155';
-          ctx.textAlign = 'left';
-          const label = series.label;
-          ctx.fillText(label, legendX + 14, legendY + 10);
-          legendX += Math.min(210, 22 + ctx.measureText(label).width);
-          if (legendX > cssWidth - 180) {
-            legendX = pad.left;
-            legendY += 18;
-          }
-        });
-      }
-
       canvas.onmousemove = evt => {
         if (options.mode === 'mini') return;
         const bounds = canvas.getBoundingClientRect();
@@ -1233,6 +1234,9 @@ HTML_TEMPLATE = r"""<!doctype html>
         color: COLORS[idx % COLORS.length],
         rows: seriesFor('comparison_index', id)
       }));
+      document.getElementById('compareLegend').innerHTML = series.map(s => `
+        <span class="legend-item"><span class="legend-swatch" style="background:${s.color}"></span>${escapeHtml(s.label)}</span>
+      `).join('');
       drawLineChart(document.getElementById('compareChart'), series, { yMax: 100, mode: 'compare' });
     }
 
