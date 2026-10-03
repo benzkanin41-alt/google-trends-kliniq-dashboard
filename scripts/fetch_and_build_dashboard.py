@@ -1163,8 +1163,10 @@ HTML_TEMPLATE = r"""<!doctype html>
       ctx.stroke();
 
       const yearMarks = [];
+      const firstRequestedYear = DATA.metadata.start_date.slice(0, 4);
       labels.forEach((label, i) => {
         const yr = label.slice(0, 4);
+        if (yr < firstRequestedYear) return;
         if (i === 0 || labels[i - 1].slice(0, 4) !== yr) yearMarks.push([i, yr]);
       });
       ctx.fillStyle = '#607080';
