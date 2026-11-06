@@ -252,6 +252,7 @@ THE KLINIQ,the_kliniq,single_index,2026-10-04,"Oct 4 – 10, 2026",42.0,Fals
 THE KLINIQ,the_kliniq,single_index,2026-10-11,"Oct 11 – 17, 2026",34.0,False
 THE KLINIQ,the_kliniq,single_index,2026-10-18,"Oct 18 – 24, 2026",37.0,False
 THE KLINIQ,the_kliniq,single_index,2026-10-25,"Oct 25 – 31, 2026",40.0,False
+THE KLINIQ,the_kliniq,single_index,2026-11-01,"Nov 1 – 7, 2026",39.0,True
 KLINIQ Surgery,kliniq_surgery,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 KLINIQ Surgery,kliniq_surgery,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 KLINIQ Surgery,kliniq_surgery,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -505,6 +506,7 @@ KLINIQ Surgery,kliniq_surgery,single_index,2026-10-04,"Oct 4 – 10, 2026",0
 KLINIQ Surgery,kliniq_surgery,single_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
 KLINIQ Surgery,kliniq_surgery,single_index,2026-10-18,"Oct 18 – 24, 2026",8.0,False
 KLINIQ Surgery,kliniq_surgery,single_index,2026-10-25,"Oct 25 – 31, 2026",24.0,False
+KLINIQ Surgery,kliniq_surgery,single_index,2026-11-01,"Nov 1 – 7, 2026",20.0,True
 LABX,labx,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 LABX,labx,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 LABX,labx,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -758,6 +760,7 @@ LABX,labx,single_index,2026-10-04,"Oct 4 – 10, 2026",87.0,False
 LABX,labx,single_index,2026-10-11,"Oct 11 – 17, 2026",54.0,False
 LABX,labx,single_index,2026-10-18,"Oct 18 – 24, 2026",71.0,False
 LABX,labx,single_index,2026-10-25,"Oct 25 – 31, 2026",72.0,False
+LABX,labx,single_index,2026-11-01,"Nov 1 – 7, 2026",60.0,True
 L clinic,l_clinic,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 L clinic,l_clinic,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 L clinic,l_clinic,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -1011,6 +1014,7 @@ L clinic,l_clinic,single_index,2026-10-04,"Oct 4 – 10, 2026",66.0,False
 L clinic,l_clinic,single_index,2026-10-11,"Oct 11 – 17, 2026",63.0,False
 L clinic,l_clinic,single_index,2026-10-18,"Oct 18 – 24, 2026",50.0,False
 L clinic,l_clinic,single_index,2026-10-25,"Oct 25 – 31, 2026",52.0,False
+L clinic,l_clinic,single_index,2026-11-01,"Nov 1 – 7, 2026",60.0,True
 Acne lab,acne_lab,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 Acne lab,acne_lab,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 Acne lab,acne_lab,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -1264,6 +1268,7 @@ Acne lab,acne_lab,single_index,2026-10-04,"Oct 4 – 10, 2026",0.0,False
 Acne lab,acne_lab,single_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
 Acne lab,acne_lab,single_index,2026-10-18,"Oct 18 – 24, 2026",31.0,False
 Acne lab,acne_lab,single_index,2026-10-25,"Oct 25 – 31, 2026",13.0,False
+Acne lab,acne_lab,single_index,2026-11-01,"Nov 1 – 7, 2026",14.0,True
 AURA Bangkok clinic,aura_bangkok,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 AURA Bangkok clinic,aura_bangkok,single_index,2022-01-02,"Jan 2 – 8, 2022",17.0,False
 AURA Bangkok clinic,aura_bangkok,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -1517,6 +1522,7 @@ AURA Bangkok clinic,aura_bangkok,single_index,2026-10-04,"Oct 4 – 10, 2026
 AURA Bangkok clinic,aura_bangkok,single_index,2026-10-11,"Oct 11 – 17, 2026",75.0,False
 AURA Bangkok clinic,aura_bangkok,single_index,2026-10-18,"Oct 18 – 24, 2026",78.0,False
 AURA Bangkok clinic,aura_bangkok,single_index,2026-10-25,"Oct 25 – 31, 2026",64.0,False
+AURA Bangkok clinic,aura_bangkok,single_index,2026-11-01,"Nov 1 – 7, 2026",63.0,True
 Aura Xpress,aura_xpress,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 Aura Xpress,aura_xpress,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 Aura Xpress,aura_xpress,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -1770,6 +1776,7 @@ Aura Xpress,aura_xpress,single_index,2026-10-04,"Oct 4 – 10, 2026",56.0,Fa
 Aura Xpress,aura_xpress,single_index,2026-10-11,"Oct 11 – 17, 2026",50.0,False
 Aura Xpress,aura_xpress,single_index,2026-10-18,"Oct 18 – 24, 2026",44.0,False
 Aura Xpress,aura_xpress,single_index,2026-10-25,"Oct 25 – 31, 2026",57.0,False
+Aura Xpress,aura_xpress,single_index,2026-11-01,"Nov 1 – 7, 2026",48.0,True
 Vsquare,vsquare,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",30.0,False
 Vsquare,vsquare,single_index,2022-01-02,"Jan 2 – 8, 2022",29.0,False
 Vsquare,vsquare,single_index,2022-01-09,"Jan 9 – 15, 2022",25.0,False
@@ -2023,6 +2030,7 @@ Vsquare,vsquare,single_index,2026-10-04,"Oct 4 – 10, 2026",74.0,False
 Vsquare,vsquare,single_index,2026-10-11,"Oct 11 – 17, 2026",72.0,False
 Vsquare,vsquare,single_index,2026-10-18,"Oct 18 – 24, 2026",71.0,False
 Vsquare,vsquare,single_index,2026-10-25,"Oct 25 – 31, 2026",73.0,False
+Vsquare,vsquare,single_index,2026-11-01,"Nov 1 – 7, 2026",70.0,True
 SLC,slc,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",41.0,False
 SLC,slc,single_index,2022-01-02,"Jan 2 – 8, 2022",44.0,False
 SLC,slc,single_index,2022-01-09,"Jan 9 – 15, 2022",47.0,False
@@ -2276,6 +2284,7 @@ SLC,slc,single_index,2026-10-04,"Oct 4 – 10, 2026",38.0,False
 SLC,slc,single_index,2026-10-11,"Oct 11 – 17, 2026",30.0,False
 SLC,slc,single_index,2026-10-18,"Oct 18 – 24, 2026",28.0,False
 SLC,slc,single_index,2026-10-25,"Oct 25 – 31, 2026",25.0,False
+SLC,slc,single_index,2026-11-01,"Nov 1 – 7, 2026",23.0,True
 APEX,apex,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",48.0,False
 APEX,apex,single_index,2022-01-02,"Jan 2 – 8, 2022",79.0,False
 APEX,apex,single_index,2022-01-09,"Jan 9 – 15, 2022",75.0,False
@@ -2529,6 +2538,7 @@ APEX,apex,single_index,2026-10-04,"Oct 4 – 10, 2026",81.0,False
 APEX,apex,single_index,2026-10-11,"Oct 11 – 17, 2026",84.0,False
 APEX,apex,single_index,2026-10-18,"Oct 18 – 24, 2026",91.0,False
 APEX,apex,single_index,2026-10-25,"Oct 25 – 31, 2026",80.0,False
+APEX,apex,single_index,2026-11-01,"Nov 1 – 7, 2026",79.0,True
 KKC clinic,kkc,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 KKC clinic,kkc,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 KKC clinic,kkc,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -2782,6 +2792,7 @@ KKC clinic,kkc,single_index,2026-10-04,"Oct 4 – 10, 2026",54.0,False
 KKC clinic,kkc,single_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
 KKC clinic,kkc,single_index,2026-10-18,"Oct 18 – 24, 2026",5.0,False
 KKC clinic,kkc,single_index,2026-10-25,"Oct 25 – 31, 2026",30.0,False
+KKC clinic,kkc,single_index,2026-11-01,"Nov 1 – 7, 2026",34.0,True
 พรเกษม,pornkasem,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",47.0,False
 พรเกษม,pornkasem,single_index,2022-01-02,"Jan 2 – 8, 2022",46.0,False
 พรเกษม,pornkasem,single_index,2022-01-09,"Jan 9 – 15, 2022",39.0,False
@@ -3035,6 +3046,7 @@ KKC clinic,kkc,single_index,2026-10-25,"Oct 25 – 31, 2026",30.0,False
 พรเกษม,pornkasem,single_index,2026-10-11,"Oct 11 – 17, 2026",78.0,False
 พรเกษม,pornkasem,single_index,2026-10-18,"Oct 18 – 24, 2026",71.0,False
 พรเกษม,pornkasem,single_index,2026-10-25,"Oct 25 – 31, 2026",68.0,False
+พรเกษม,pornkasem,single_index,2026-11-01,"Nov 1 – 7, 2026",68.0,True
 Gangnam clinic,gangnam,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",45.0,False
 Gangnam clinic,gangnam,single_index,2022-01-02,"Jan 2 – 8, 2022",49.0,False
 Gangnam clinic,gangnam,single_index,2022-01-09,"Jan 9 – 15, 2022",50.0,False
@@ -3288,6 +3300,7 @@ Gangnam clinic,gangnam,single_index,2026-10-04,"Oct 4 – 10, 2026",81.0,Fal
 Gangnam clinic,gangnam,single_index,2026-10-11,"Oct 11 – 17, 2026",100.0,False
 Gangnam clinic,gangnam,single_index,2026-10-18,"Oct 18 – 24, 2026",86.0,False
 Gangnam clinic,gangnam,single_index,2026-10-25,"Oct 25 – 31, 2026",82.0,False
+Gangnam clinic,gangnam,single_index,2026-11-01,"Nov 1 – 7, 2026",80.0,True
 Souel clinic,souel,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 Souel clinic,souel,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 Souel clinic,souel,single_index,2022-01-09,"Jan 9 – 15, 2022",29.0,False
@@ -3539,8 +3552,9 @@ Souel clinic,souel,single_index,2026-09-20,"Sep 20 – 26, 2026",0.0,False
 Souel clinic,souel,single_index,2026-09-27,"Sep 27 – Oct 3, 2026",0.0,False
 Souel clinic,souel,single_index,2026-10-04,"Oct 4 – 10, 2026",32.0,False
 Souel clinic,souel,single_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
-Souel clinic,souel,single_index,2026-10-18,"Oct 18 – 24, 2026",15.0,False
+Souel clinic,souel,single_index,2026-10-18,"Oct 18 – 24, 2026",14.0,False
 Souel clinic,souel,single_index,2026-10-25,"Oct 25 – 31, 2026",33.0,False
+Souel clinic,souel,single_index,2026-11-01,"Nov 1 – 7, 2026",36.0,True
 Romrawin,romrawin,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",40.0,False
 Romrawin,romrawin,single_index,2022-01-02,"Jan 2 – 8, 2022",47.0,False
 Romrawin,romrawin,single_index,2022-01-09,"Jan 9 – 15, 2022",34.0,False
@@ -3794,6 +3808,7 @@ Romrawin,romrawin,single_index,2026-10-04,"Oct 4 – 10, 2026",59.0,False
 Romrawin,romrawin,single_index,2026-10-11,"Oct 11 – 17, 2026",66.0,False
 Romrawin,romrawin,single_index,2026-10-18,"Oct 18 – 24, 2026",65.0,False
 Romrawin,romrawin,single_index,2026-10-25,"Oct 25 – 31, 2026",63.0,False
+Romrawin,romrawin,single_index,2026-11-01,"Nov 1 – 7, 2026",51.0,True
 นิติพล,nitipon,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",30.0,False
 นิติพล,nitipon,single_index,2022-01-02,"Jan 2 – 8, 2022",42.0,False
 นิติพล,nitipon,single_index,2022-01-09,"Jan 9 – 15, 2022",57.0,False
@@ -4047,6 +4062,7 @@ Romrawin,romrawin,single_index,2026-10-25,"Oct 25 – 31, 2026",63.0,False
 นิติพล,nitipon,single_index,2026-10-11,"Oct 11 – 17, 2026",25.0,False
 นิติพล,nitipon,single_index,2026-10-18,"Oct 18 – 24, 2026",24.0,False
 นิติพล,nitipon,single_index,2026-10-25,"Oct 25 – 31, 2026",25.0,False
+นิติพล,nitipon,single_index,2026-11-01,"Nov 1 – 7, 2026",23.0,True
 THE RITZ clinic,ritz,single_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 THE RITZ clinic,ritz,single_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 THE RITZ clinic,ritz,single_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -4300,6 +4316,7 @@ THE RITZ clinic,ritz,single_index,2026-10-04,"Oct 4 – 10, 2026",58.0,False
 THE RITZ clinic,ritz,single_index,2026-10-11,"Oct 11 – 17, 2026",58.0,False
 THE RITZ clinic,ritz,single_index,2026-10-18,"Oct 18 – 24, 2026",74.0,False
 THE RITZ clinic,ritz,single_index,2026-10-25,"Oct 25 – 31, 2026",40.0,False
+THE RITZ clinic,ritz,single_index,2026-11-01,"Nov 1 – 7, 2026",45.0,True
 THE KLINIQ,the_kliniq,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",21.0,False
 THE KLINIQ,the_kliniq,comparison_index,2022-01-02,"Jan 2 – 8, 2022",24.0,False
 THE KLINIQ,the_kliniq,comparison_index,2022-01-09,"Jan 9 – 15, 2022",22.0,False
@@ -4553,6 +4570,7 @@ THE KLINIQ,the_kliniq,comparison_index,2026-10-04,"Oct 4 – 10, 2026",42.0,
 THE KLINIQ,the_kliniq,comparison_index,2026-10-11,"Oct 11 – 17, 2026",34.0,False
 THE KLINIQ,the_kliniq,comparison_index,2026-10-18,"Oct 18 – 24, 2026",37.0,False
 THE KLINIQ,the_kliniq,comparison_index,2026-10-25,"Oct 25 – 31, 2026",40.0,False
+THE KLINIQ,the_kliniq,comparison_index,2026-11-01,"Nov 1 – 7, 2026",39.0,True
 KLINIQ Surgery,kliniq_surgery,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 KLINIQ Surgery,kliniq_surgery,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 KLINIQ Surgery,kliniq_surgery,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -4806,6 +4824,7 @@ KLINIQ Surgery,kliniq_surgery,comparison_index,2026-10-04,"Oct 4 – 10, 202
 KLINIQ Surgery,kliniq_surgery,comparison_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
 KLINIQ Surgery,kliniq_surgery,comparison_index,2026-10-18,"Oct 18 – 24, 2026",0.0,False
 KLINIQ Surgery,kliniq_surgery,comparison_index,2026-10-25,"Oct 25 – 31, 2026",1.0,False
+KLINIQ Surgery,kliniq_surgery,comparison_index,2026-11-01,"Nov 1 – 7, 2026",1.0,True
 LABX,labx,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 LABX,labx,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 LABX,labx,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -5059,6 +5078,7 @@ LABX,labx,comparison_index,2026-10-04,"Oct 4 – 10, 2026",21.0,False
 LABX,labx,comparison_index,2026-10-11,"Oct 11 – 17, 2026",13.0,False
 LABX,labx,comparison_index,2026-10-18,"Oct 18 – 24, 2026",17.0,False
 LABX,labx,comparison_index,2026-10-25,"Oct 25 – 31, 2026",17.0,False
+LABX,labx,comparison_index,2026-11-01,"Nov 1 – 7, 2026",14.0,True
 L clinic,l_clinic,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 L clinic,l_clinic,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 L clinic,l_clinic,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -5312,6 +5332,7 @@ L clinic,l_clinic,comparison_index,2026-10-04,"Oct 4 – 10, 2026",11.0,Fals
 L clinic,l_clinic,comparison_index,2026-10-11,"Oct 11 – 17, 2026",10.0,False
 L clinic,l_clinic,comparison_index,2026-10-18,"Oct 18 – 24, 2026",8.0,False
 L clinic,l_clinic,comparison_index,2026-10-25,"Oct 25 – 31, 2026",9.0,False
+L clinic,l_clinic,comparison_index,2026-11-01,"Nov 1 – 7, 2026",10.0,True
 Acne lab,acne_lab,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 Acne lab,acne_lab,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 Acne lab,acne_lab,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -5565,6 +5586,7 @@ Acne lab,acne_lab,comparison_index,2026-10-04,"Oct 4 – 10, 2026",0.0,False
 Acne lab,acne_lab,comparison_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
 Acne lab,acne_lab,comparison_index,2026-10-18,"Oct 18 – 24, 2026",4.0,False
 Acne lab,acne_lab,comparison_index,2026-10-25,"Oct 25 – 31, 2026",2.0,False
+Acne lab,acne_lab,comparison_index,2026-11-01,"Nov 1 – 7, 2026",2.0,True
 AURA Bangkok clinic,aura_bangkok,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 AURA Bangkok clinic,aura_bangkok,comparison_index,2022-01-02,"Jan 2 – 8, 2022",4.0,False
 AURA Bangkok clinic,aura_bangkok,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -5818,6 +5840,7 @@ AURA Bangkok clinic,aura_bangkok,comparison_index,2026-10-04,"Oct 4 – 10, 
 AURA Bangkok clinic,aura_bangkok,comparison_index,2026-10-11,"Oct 11 – 17, 2026",17.0,False
 AURA Bangkok clinic,aura_bangkok,comparison_index,2026-10-18,"Oct 18 – 24, 2026",18.0,False
 AURA Bangkok clinic,aura_bangkok,comparison_index,2026-10-25,"Oct 25 – 31, 2026",15.0,False
+AURA Bangkok clinic,aura_bangkok,comparison_index,2026-11-01,"Nov 1 – 7, 2026",14.0,True
 Aura Xpress,aura_xpress,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 Aura Xpress,aura_xpress,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 Aura Xpress,aura_xpress,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -6071,6 +6094,7 @@ Aura Xpress,aura_xpress,comparison_index,2026-10-04,"Oct 4 – 10, 2026",11.
 Aura Xpress,aura_xpress,comparison_index,2026-10-11,"Oct 11 – 17, 2026",10.0,False
 Aura Xpress,aura_xpress,comparison_index,2026-10-18,"Oct 18 – 24, 2026",9.0,False
 Aura Xpress,aura_xpress,comparison_index,2026-10-25,"Oct 25 – 31, 2026",11.0,False
+Aura Xpress,aura_xpress,comparison_index,2026-11-01,"Nov 1 – 7, 2026",10.0,True
 Vsquare,vsquare,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",9.0,False
 Vsquare,vsquare,comparison_index,2022-01-02,"Jan 2 – 8, 2022",8.0,False
 Vsquare,vsquare,comparison_index,2022-01-09,"Jan 9 – 15, 2022",8.0,False
@@ -6324,6 +6348,7 @@ Vsquare,vsquare,comparison_index,2026-10-04,"Oct 4 – 10, 2026",22.0,False
 Vsquare,vsquare,comparison_index,2026-10-11,"Oct 11 – 17, 2026",21.0,False
 Vsquare,vsquare,comparison_index,2026-10-18,"Oct 18 – 24, 2026",21.0,False
 Vsquare,vsquare,comparison_index,2026-10-25,"Oct 25 – 31, 2026",22.0,False
+Vsquare,vsquare,comparison_index,2026-11-01,"Nov 1 – 7, 2026",21.0,True
 SLC,slc,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",9.0,False
 SLC,slc,comparison_index,2022-01-02,"Jan 2 – 8, 2022",10.0,False
 SLC,slc,comparison_index,2022-01-09,"Jan 9 – 15, 2022",10.0,False
@@ -6577,6 +6602,7 @@ SLC,slc,comparison_index,2026-10-04,"Oct 4 – 10, 2026",8.0,False
 SLC,slc,comparison_index,2026-10-11,"Oct 11 – 17, 2026",7.0,False
 SLC,slc,comparison_index,2026-10-18,"Oct 18 – 24, 2026",6.0,False
 SLC,slc,comparison_index,2026-10-25,"Oct 25 – 31, 2026",6.0,False
+SLC,slc,comparison_index,2026-11-01,"Nov 1 – 7, 2026",5.0,True
 APEX,apex,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",8.0,False
 APEX,apex,comparison_index,2022-01-02,"Jan 2 – 8, 2022",12.0,False
 APEX,apex,comparison_index,2022-01-09,"Jan 9 – 15, 2022",12.0,False
@@ -6830,6 +6856,7 @@ APEX,apex,comparison_index,2026-10-04,"Oct 4 – 10, 2026",13.0,False
 APEX,apex,comparison_index,2026-10-11,"Oct 11 – 17, 2026",13.0,False
 APEX,apex,comparison_index,2026-10-18,"Oct 18 – 24, 2026",14.0,False
 APEX,apex,comparison_index,2026-10-25,"Oct 25 – 31, 2026",13.0,False
+APEX,apex,comparison_index,2026-11-01,"Nov 1 – 7, 2026",13.0,True
 KKC clinic,kkc,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 KKC clinic,kkc,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 KKC clinic,kkc,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -7083,6 +7110,7 @@ KKC clinic,kkc,comparison_index,2026-10-04,"Oct 4 – 10, 2026",4.0,False
 KKC clinic,kkc,comparison_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
 KKC clinic,kkc,comparison_index,2026-10-18,"Oct 18 – 24, 2026",0.0,False
 KKC clinic,kkc,comparison_index,2026-10-25,"Oct 25 – 31, 2026",2.0,False
+KKC clinic,kkc,comparison_index,2026-11-01,"Nov 1 – 7, 2026",2.0,True
 พรเกษม,pornkasem,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",34.0,False
 พรเกษม,pornkasem,comparison_index,2022-01-02,"Jan 2 – 8, 2022",33.0,False
 พรเกษม,pornkasem,comparison_index,2022-01-09,"Jan 9 – 15, 2022",28.0,False
@@ -7336,6 +7364,7 @@ KKC clinic,kkc,comparison_index,2026-10-25,"Oct 25 – 31, 2026",2.0,False
 พรเกษม,pornkasem,comparison_index,2026-10-11,"Oct 11 – 17, 2026",56.0,False
 พรเกษม,pornkasem,comparison_index,2026-10-18,"Oct 18 – 24, 2026",51.0,False
 พรเกษม,pornkasem,comparison_index,2026-10-25,"Oct 25 – 31, 2026",49.0,False
+พรเกษม,pornkasem,comparison_index,2026-11-01,"Nov 1 – 7, 2026",49.0,True
 Gangnam clinic,gangnam,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",25.0,False
 Gangnam clinic,gangnam,comparison_index,2022-01-02,"Jan 2 – 8, 2022",28.0,False
 Gangnam clinic,gangnam,comparison_index,2022-01-09,"Jan 9 – 15, 2022",28.0,False
@@ -7589,6 +7618,7 @@ Gangnam clinic,gangnam,comparison_index,2026-10-04,"Oct 4 – 10, 2026",46.0
 Gangnam clinic,gangnam,comparison_index,2026-10-11,"Oct 11 – 17, 2026",57.0,False
 Gangnam clinic,gangnam,comparison_index,2026-10-18,"Oct 18 – 24, 2026",49.0,False
 Gangnam clinic,gangnam,comparison_index,2026-10-25,"Oct 25 – 31, 2026",47.0,False
+Gangnam clinic,gangnam,comparison_index,2026-11-01,"Nov 1 – 7, 2026",46.0,True
 Souel clinic,souel,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 Souel clinic,souel,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 Souel clinic,souel,comparison_index,2022-01-09,"Jan 9 – 15, 2022",3.0,False
@@ -7842,6 +7872,7 @@ Souel clinic,souel,comparison_index,2026-10-04,"Oct 4 – 10, 2026",4.0,Fals
 Souel clinic,souel,comparison_index,2026-10-11,"Oct 11 – 17, 2026",0.0,False
 Souel clinic,souel,comparison_index,2026-10-18,"Oct 18 – 24, 2026",2.0,False
 Souel clinic,souel,comparison_index,2026-10-25,"Oct 25 – 31, 2026",4.0,False
+Souel clinic,souel,comparison_index,2026-11-01,"Nov 1 – 7, 2026",4.0,True
 Romrawin,romrawin,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",6.0,False
 Romrawin,romrawin,comparison_index,2022-01-02,"Jan 2 – 8, 2022",7.0,False
 Romrawin,romrawin,comparison_index,2022-01-09,"Jan 9 – 15, 2022",5.0,False
@@ -8095,6 +8126,7 @@ Romrawin,romrawin,comparison_index,2026-10-04,"Oct 4 – 10, 2026",8.0,False
 Romrawin,romrawin,comparison_index,2026-10-11,"Oct 11 – 17, 2026",9.0,False
 Romrawin,romrawin,comparison_index,2026-10-18,"Oct 18 – 24, 2026",9.0,False
 Romrawin,romrawin,comparison_index,2026-10-25,"Oct 25 – 31, 2026",9.0,False
+Romrawin,romrawin,comparison_index,2026-11-01,"Nov 1 – 7, 2026",7.0,True
 นิติพล,nitipon,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",25.0,False
 นิติพล,nitipon,comparison_index,2022-01-02,"Jan 2 – 8, 2022",35.0,False
 นิติพล,nitipon,comparison_index,2022-01-09,"Jan 9 – 15, 2022",47.0,False
@@ -8348,6 +8380,7 @@ Romrawin,romrawin,comparison_index,2026-10-25,"Oct 25 – 31, 2026",9.0,Fals
 นิติพล,nitipon,comparison_index,2026-10-11,"Oct 11 – 17, 2026",20.0,False
 นิติพล,nitipon,comparison_index,2026-10-18,"Oct 18 – 24, 2026",20.0,False
 นิติพล,nitipon,comparison_index,2026-10-25,"Oct 25 – 31, 2026",20.0,False
+นิติพล,nitipon,comparison_index,2026-11-01,"Nov 1 – 7, 2026",19.0,True
 THE RITZ clinic,ritz,comparison_index,2021-12-26,"Dec 26, 2021 – Jan 1, 2022",0.0,False
 THE RITZ clinic,ritz,comparison_index,2022-01-02,"Jan 2 – 8, 2022",0.0,False
 THE RITZ clinic,ritz,comparison_index,2022-01-09,"Jan 9 – 15, 2022",0.0,False
@@ -8601,3 +8634,4 @@ THE RITZ clinic,ritz,comparison_index,2026-10-04,"Oct 4 – 10, 2026",5.0,Fa
 THE RITZ clinic,ritz,comparison_index,2026-10-11,"Oct 11 – 17, 2026",5.0,False
 THE RITZ clinic,ritz,comparison_index,2026-10-18,"Oct 18 – 24, 2026",6.0,False
 THE RITZ clinic,ritz,comparison_index,2026-10-25,"Oct 25 – 31, 2026",3.0,False
+THE RITZ clinic,ritz,comparison_index,2026-11-01,"Nov 1 – 7, 2026",4.0,True

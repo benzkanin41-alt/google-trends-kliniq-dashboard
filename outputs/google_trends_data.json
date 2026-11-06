@@ -4,8 +4,8 @@
     "geo": "TH",
     "geo_label": "Thailand",
     "start_date": "2022-01-01",
-    "end_date": "2026-10-31",
-    "fetched_at_utc": "2026-11-06T02:03:21+00:00",
+    "end_date": "2026-11-06",
+    "fetched_at_utc": "2026-11-06T02:14:36+00:00",
     "grain": "weekly",
     "source": "Google Trends",
     "source_url": "https://trends.google.com/trends/",
@@ -13,7 +13,7 @@
       "Each canonical brand is represented by an alias expression joined with '+', which Google Trends parses as multiple broad keywords within one comparison item.",
       "single_index is the standard Google Trends 0-100 index for each canonical alias group, normalized within that brand over the selected time range.",
       "comparison_index is anchored through THE KLINIQ because Google Trends direct comparison is limited to small groups; groups were rescaled using the shared THE KLINIQ series and then normalized to the cross-brand maximum.",
-      "The data is weekly, Thailand-only, web search, all categories, from 2022-01-01 through 2026-10-31."
+      "The data is weekly, Thailand-only, web search, all categories, from 2022-01-01 through 2026-11-06."
     ],
     "limitations": [
       "Google Trends values are relative indices, not absolute search volumes.",
@@ -37,35 +37,35 @@
       "source_note": "Official website text uses THE KLINIQUE and เดอะคลีนิกค์; user canonical kept as THE KLINIQ.",
       "source_url": "https://www.theklinique.com/",
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=THE%20KLINIQ%20%2B%20THE%20KLINIQUE%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%84%E0%B9%8C%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%84",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=THE%20KLINIQ%20%2B%20THE%20KLINIQUE%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%84%E0%B9%8C%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%84",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 40.0,
-        "avg_13w": 39.46153846153846,
-        "change_13w_vs_prev_13w_pct": -3.5714285714285676,
-        "yoy_pct": 33.33333333333333,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 39.0,
+        "avg_13w": 39.15384615384615,
+        "change_13w_vs_prev_13w_pct": -4.859813084112149,
+        "yoy_pct": 11.428571428571429,
         "peak_date": "2026-03-08",
         "peak_period": "Mar 8 – 14, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 29.063241106719367,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 29.10236220472441,
         "median": 27.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 40.0,
-        "avg_13w": 39.46153846153846,
-        "change_13w_vs_prev_13w_pct": -3.5714285714285676,
-        "yoy_pct": 33.33333333333333,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 39.0,
+        "avg_13w": 39.15384615384615,
+        "change_13w_vs_prev_13w_pct": -4.859813084112149,
+        "yoy_pct": 11.428571428571429,
         "peak_date": "2026-03-08",
         "peak_period": "Mar 8 – 14, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 29.063241106719367,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 29.10236220472441,
         "median": 27.0
       }
     },
@@ -82,35 +82,35 @@
       "source_note": "Surgery wording appears on THE KLINIQUE official service navigation; long Thai surgery-center phrase omitted from the Trends query because it triggers a Google Trends bad-request response.",
       "source_url": "https://www.theklinique.com/",
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=KLINIQ%20Surgery%20%2B%20THE%20KLINIQUE%20Surgery%20%2B%20Klinique%20Surgery%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%84%E0%B9%8C%20%E0%B8%A8%E0%B8%B1%E0%B8%A5%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=KLINIQ%20Surgery%20%2B%20THE%20KLINIQUE%20Surgery%20%2B%20Klinique%20Surgery%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%84%E0%B9%8C%20%E0%B8%A8%E0%B8%B1%E0%B8%A5%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 24.0,
-        "avg_13w": 2.4615384615384617,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 20.0,
+        "avg_13w": 4.0,
         "change_13w_vs_prev_13w_pct": null,
         "yoy_pct": null,
         "peak_date": "2026-03-01",
         "peak_period": "Mar 1 – 7, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 4,
-        "weeks": 253,
-        "mean": 0.8063241106719368,
+        "nonzero_weeks": 5,
+        "weeks": 254,
+        "mean": 0.8818897637795275,
         "median": 0.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
         "latest_value": 1.0,
-        "avg_13w": 0.07692307692307693,
+        "avg_13w": 0.15384615384615385,
         "change_13w_vs_prev_13w_pct": null,
         "yoy_pct": null,
         "peak_date": "2022-09-11",
         "peak_period": "Sep 11 – 17, 2022",
         "peak_value": 3.0,
-        "nonzero_weeks": 3,
-        "weeks": 253,
-        "mean": 0.02766798418972332,
+        "nonzero_weeks": 4,
+        "weeks": 254,
+        "mean": 0.031496062992125984,
         "median": 0.0
       }
     },
@@ -128,35 +128,35 @@
       "source_note": "Seeded from user-provided brand plus Thai/English spelling variants; official source not verified in this run.",
       "source_url": null,
       "caveat": "Low-volume or generic lab wording can create zeros/noise.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=LABX%20%2B%20LABX%20Clinic%20%2B%20LAB%20X%20Clinic%20%2B%20%E0%B9%81%E0%B8%A5%E0%B9%87%E0%B8%9A%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%20%2B%20%E0%B9%81%E0%B8%A5%E0%B8%9A%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=LABX%20%2B%20LABX%20Clinic%20%2B%20LAB%20X%20Clinic%20%2B%20%E0%B9%81%E0%B8%A5%E0%B9%87%E0%B8%9A%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%20%2B%20%E0%B9%81%E0%B8%A5%E0%B8%9A%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 72.0,
-        "avg_13w": 64.84615384615384,
-        "change_13w_vs_prev_13w_pct": 3.9457459926017124,
-        "yoy_pct": 67.44186046511628,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 60.0,
+        "avg_13w": 64.92307692307692,
+        "change_13w_vs_prev_13w_pct": 3.55828220858895,
+        "yoy_pct": 57.89473684210527,
         "peak_date": "2026-09-27",
         "peak_period": "Sep 27 – Oct 3, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 175,
-        "weeks": 253,
-        "mean": 26.74703557312253,
+        "nonzero_weeks": 176,
+        "weeks": 254,
+        "mean": 26.87795275590551,
         "median": 22.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 17.0,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 14.0,
         "avg_13w": 15.461538461538462,
-        "change_13w_vs_prev_13w_pct": 4.145077720207251,
-        "yoy_pct": 70.0,
+        "change_13w_vs_prev_13w_pct": 3.6082474226804115,
+        "yoy_pct": 55.55555555555556,
         "peak_date": "2026-09-27",
         "peak_period": "Sep 27 – Oct 3, 2026",
         "peak_value": 24.0,
-        "nonzero_weeks": 175,
-        "weeks": 253,
-        "mean": 6.379446640316205,
+        "nonzero_weeks": 176,
+        "weeks": 254,
+        "mean": 6.409448818897638,
         "median": 5.0
       }
     },
@@ -173,35 +173,35 @@
       "source_note": "Seeded from user-provided brand plus Thai/English spelling variants.",
       "source_url": null,
       "caveat": "Very generic name; results may include unrelated clinics.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=L%20Clinic%20%2B%20L%20clinic%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%A5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%A5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=L%20Clinic%20%2B%20L%20clinic%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%A5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%A5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 52.0,
-        "avg_13w": 62.0,
-        "change_13w_vs_prev_13w_pct": 26.53061224489796,
-        "yoy_pct": null,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 60.0,
+        "avg_13w": 62.30769230769231,
+        "change_13w_vs_prev_13w_pct": 25.581395348837212,
+        "yoy_pct": 50.0,
         "peak_date": "2026-09-06",
         "peak_period": "Sep 6 – 12, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 161,
-        "weeks": 253,
-        "mean": 19.940711462450594,
+        "nonzero_weeks": 162,
+        "weeks": 254,
+        "mean": 20.098425196850393,
         "median": 20.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 9.0,
-        "avg_13w": 10.307692307692308,
-        "change_13w_vs_prev_13w_pct": 26.41509433962266,
-        "yoy_pct": null,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 10.0,
+        "avg_13w": 10.384615384615385,
+        "change_13w_vs_prev_13w_pct": 26.16822429906544,
+        "yoy_pct": 42.857142857142854,
         "peak_date": "2026-09-06",
         "peak_period": "Sep 6 – 12, 2026",
         "peak_value": 17.0,
-        "nonzero_weeks": 161,
-        "weeks": 253,
-        "mean": 3.33596837944664,
+        "nonzero_weeks": 162,
+        "weeks": 254,
+        "mean": 3.3622047244094486,
         "median": 3.0
       }
     },
@@ -219,35 +219,35 @@
       "source_note": "Seeded from user-provided brand plus Thai/English spelling variants.",
       "source_url": null,
       "caveat": "Generic acne wording can include non-brand search intent.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=Acne%20Lab%20%2B%20Acne%20Lab%20Clinic%20%2B%20Acnelab%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%99%E0%B9%88%E0%B9%81%E0%B8%A5%E0%B8%9A%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%99%E0%B9%88%20%E0%B9%81%E0%B8%A5%E0%B9%87%E0%B8%9A",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=Acne%20Lab%20%2B%20Acne%20Lab%20Clinic%20%2B%20Acnelab%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%99%E0%B9%88%E0%B9%81%E0%B8%A5%E0%B8%9A%20%2B%20%E0%B9%81%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%99%E0%B9%88%20%E0%B9%81%E0%B8%A5%E0%B9%87%E0%B8%9A",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 13.0,
-        "avg_13w": 6.769230769230769,
-        "change_13w_vs_prev_13w_pct": 238.46153846153845,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 14.0,
+        "avg_13w": 7.846153846153846,
+        "change_13w_vs_prev_13w_pct": 292.30769230769226,
         "yoy_pct": null,
         "peak_date": "2025-03-09",
         "peak_period": "Mar 9 – 15, 2025",
         "peak_value": 100.0,
-        "nonzero_weeks": 20,
-        "weeks": 253,
-        "mean": 3.6600790513833994,
+        "nonzero_weeks": 21,
+        "weeks": 254,
+        "mean": 3.7007874015748032,
         "median": 0.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
         "latest_value": 2.0,
-        "avg_13w": 0.9230769230769231,
-        "change_13w_vs_prev_13w_pct": 299.99999999999994,
+        "avg_13w": 1.0769230769230769,
+        "change_13w_vs_prev_13w_pct": 366.66666666666663,
         "yoy_pct": null,
         "peak_date": "2025-03-09",
         "peak_period": "Mar 9 – 15, 2025",
         "peak_value": 12.0,
-        "nonzero_weeks": 20,
-        "weeks": 253,
-        "mean": 0.4505928853754941,
+        "nonzero_weeks": 21,
+        "weeks": 254,
+        "mean": 0.4566929133858268,
         "median": 0.0
       }
     },
@@ -265,35 +265,35 @@
       "source_note": "Official website title and page text use Aura Bangkok Clinic.",
       "source_url": "https://aurabangkokclinic.com/",
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=Aura%20Bangkok%20Clinic%20%2B%20Aura%20Bangkok%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20%E0%B9%81%E0%B8%9A%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%81%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%9A%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%81%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20Bangkok",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=Aura%20Bangkok%20Clinic%20%2B%20Aura%20Bangkok%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20%E0%B9%81%E0%B8%9A%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%81%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%9A%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%81%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20Bangkok",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 64.0,
-        "avg_13w": 70.07692307692308,
-        "change_13w_vs_prev_13w_pct": -2.2532188841201686,
-        "yoy_pct": -4.477611940298507,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 63.0,
+        "avg_13w": 70.6923076923077,
+        "change_13w_vs_prev_13w_pct": -0.10869565217391766,
+        "yoy_pct": 10.526315789473683,
         "peak_date": "2024-03-24",
         "peak_period": "Mar 24 – 30, 2024",
         "peak_value": 100.0,
-        "nonzero_weeks": 223,
-        "weeks": 253,
-        "mean": 38.391304347826086,
+        "nonzero_weeks": 224,
+        "weeks": 254,
+        "mean": 38.488188976377955,
         "median": 35.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 15.0,
-        "avg_13w": 15.76923076923077,
-        "change_13w_vs_prev_13w_pct": -2.3809523809523725,
-        "yoy_pct": 0.0,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 14.0,
+        "avg_13w": 15.923076923076923,
+        "change_13w_vs_prev_13w_pct": 0.0,
+        "yoy_pct": 7.6923076923076925,
         "peak_date": "2024-03-24",
         "peak_period": "Mar 24 – 30, 2024",
         "peak_value": 23.0,
-        "nonzero_weeks": 223,
-        "weeks": 253,
-        "mean": 8.65612648221344,
+        "nonzero_weeks": 224,
+        "weeks": 254,
+        "mean": 8.67716535433071,
         "median": 8.0
       }
     },
@@ -311,35 +311,35 @@
       "source_note": "Seeded from user-provided brand plus common Xpress/Express spelling variants.",
       "source_url": null,
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=Aura%20Xpress%20%2B%20Aura%20Express%20%2B%20Aura%20Xpress%20Clinic%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%AA%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%AA%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=Aura%20Xpress%20%2B%20Aura%20Express%20%2B%20Aura%20Xpress%20Clinic%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%AA%20%2B%20%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%B2%20%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%AA%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 57.0,
-        "avg_13w": 57.84615384615385,
-        "change_13w_vs_prev_13w_pct": 6.6666666666666625,
-        "yoy_pct": -31.32530120481928,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 48.0,
+        "avg_13w": 57.46153846153846,
+        "change_13w_vs_prev_13w_pct": 7.173601147776185,
+        "yoy_pct": -17.24137931034483,
         "peak_date": "2025-11-30",
         "peak_period": "Nov 30 – Dec 6, 2025",
         "peak_value": 100.0,
-        "nonzero_weeks": 74,
-        "weeks": 253,
-        "mean": 15.82213438735178,
+        "nonzero_weeks": 75,
+        "weeks": 254,
+        "mean": 15.948818897637794,
         "median": 0.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 11.0,
-        "avg_13w": 11.538461538461538,
-        "change_13w_vs_prev_13w_pct": 6.382978723404249,
-        "yoy_pct": -35.294117647058826,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 10.0,
+        "avg_13w": 11.461538461538462,
+        "change_13w_vs_prev_13w_pct": 6.428571428571423,
+        "yoy_pct": -9.090909090909092,
         "peak_date": "2025-11-30",
         "peak_period": "Nov 30 – Dec 6, 2025",
         "peak_value": 20.0,
-        "nonzero_weeks": 74,
-        "weeks": 253,
-        "mean": 3.142292490118577,
+        "nonzero_weeks": 75,
+        "weeks": 254,
+        "mean": 3.1692913385826773,
         "median": 0.0
       }
     },
@@ -357,35 +357,35 @@
       "source_note": "Official website title and page text use V Square Clinic.",
       "source_url": "https://www.vsquareclinic.com/",
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=V%20Square%20Clinic%20%2B%20VSquare%20Clinic%20%2B%20V%20Square%20%2B%20%E0%B8%A7%E0%B8%B5%E0%B8%AA%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%A7%E0%B8%B5%20%E0%B8%AA%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=V%20Square%20Clinic%20%2B%20VSquare%20Clinic%20%2B%20V%20Square%20%2B%20%E0%B8%A7%E0%B8%B5%E0%B8%AA%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%A7%E0%B8%B5%20%E0%B8%AA%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 73.0,
-        "avg_13w": 69.15384615384616,
-        "change_13w_vs_prev_13w_pct": -13.307618129218898,
-        "yoy_pct": 8.955223880597014,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 70.0,
+        "avg_13w": 68.0,
+        "change_13w_vs_prev_13w_pct": -14.341085271317834,
+        "yoy_pct": 7.6923076923076925,
         "peak_date": "2026-05-17",
         "peak_period": "May 17 – 23, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 53.280632411067195,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 53.346456692913385,
         "median": 51.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 22.0,
-        "avg_13w": 20.53846153846154,
-        "change_13w_vs_prev_13w_pct": -13.029315960912049,
-        "yoy_pct": 10.0,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 21.0,
+        "avg_13w": 20.23076923076923,
+        "change_13w_vs_prev_13w_pct": -13.770491803278686,
+        "yoy_pct": 10.526315789473683,
         "peak_date": "2026-05-17",
         "peak_period": "May 17 – 23, 2026",
         "peak_value": 30.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 15.802371541501977,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 15.82283464566929,
         "median": 15.0
       }
     },
@@ -403,35 +403,35 @@
       "source_note": "Official website title uses SLC(Clinics&Hospital).",
       "source_url": "https://www.slcclinic.com/",
       "caveat": "Acronym can include non-clinic meanings; clinic/hospital aliases reduce but do not remove noise.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=SLC%20Clinic%20%2B%20SLC%20Hospital%20%2B%20SLC%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B9%81%E0%B8%AD%E0%B8%A5%E0%B8%8B%E0%B8%B5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20SLC%20Clinics%20Hospital",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=SLC%20Clinic%20%2B%20SLC%20Hospital%20%2B%20SLC%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B9%81%E0%B8%AD%E0%B8%A5%E0%B8%8B%E0%B8%B5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20SLC%20Clinics%20Hospital",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 25.0,
-        "avg_13w": 29.23076923076923,
-        "change_13w_vs_prev_13w_pct": 5.8495821727019415,
-        "yoy_pct": -34.21052631578947,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 23.0,
+        "avg_13w": 28.692307692307693,
+        "change_13w_vs_prev_13w_pct": 1.3586956521739209,
+        "yoy_pct": 43.75,
         "peak_date": "2025-10-05",
         "peak_period": "Oct 5 – 11, 2025",
         "peak_value": 100.0,
-        "nonzero_weeks": 251,
-        "weeks": 253,
-        "mean": 35.430830039525695,
+        "nonzero_weeks": 252,
+        "weeks": 254,
+        "mean": 35.381889763779526,
         "median": 35.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 6.0,
-        "avg_13w": 6.461538461538462,
-        "change_13w_vs_prev_13w_pct": 6.32911392405064,
-        "yoy_pct": -25.0,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 5.0,
+        "avg_13w": 6.3076923076923075,
+        "change_13w_vs_prev_13w_pct": 1.2345679012345634,
+        "yoy_pct": 25.0,
         "peak_date": "2025-10-05",
         "peak_period": "Oct 5 – 11, 2025",
         "peak_value": 22.0,
-        "nonzero_weeks": 251,
-        "weeks": 253,
-        "mean": 7.822134387351778,
+        "nonzero_weeks": 252,
+        "weeks": 254,
+        "mean": 7.811023622047244,
         "median": 8.0
       }
     },
@@ -449,35 +449,35 @@
       "source_note": "Official website title uses APEX Hospital & Clinic and Apex Beauty.",
       "source_url": "https://www.apexprofoundbeauty.com/",
       "caveat": "APEX is generic outside beauty clinics; clinic/medical aliases are included.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=APEX%20Clinic%20%2B%20APEX%20Medical%20Center%20%2B%20Apex%20Profound%20Beauty%20%2B%20%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=APEX%20Clinic%20%2B%20APEX%20Medical%20Center%20%2B%20Apex%20Profound%20Beauty%20%2B%20%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 80.0,
-        "avg_13w": 80.92307692307692,
-        "change_13w_vs_prev_13w_pct": -0.4730368968779592,
-        "yoy_pct": 23.076923076923077,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 79.0,
+        "avg_13w": 80.61538461538461,
+        "change_13w_vs_prev_13w_pct": 0.7692307692307665,
+        "yoy_pct": 23.4375,
         "peak_date": "2026-05-03",
         "peak_period": "May 3 – 9, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 59.24505928853755,
-        "median": 57.0
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 59.32283464566929,
+        "median": 57.5
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
         "latest_value": 13.0,
         "avg_13w": 12.846153846153847,
-        "change_13w_vs_prev_13w_pct": 0.0,
+        "change_13w_vs_prev_13w_pct": 1.8292682926829344,
         "yoy_pct": 30.0,
         "peak_date": "2026-05-03",
         "peak_period": "May 3 – 9, 2026",
         "peak_value": 16.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 9.367588932806324,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 9.381889763779528,
         "median": 9.0
       }
     },
@@ -494,35 +494,35 @@
       "source_note": "Seeded from user-provided brand plus Thai/English spelling variants; official source not verified in this run.",
       "source_url": null,
       "caveat": "Acronym can include unrelated meanings.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=KKC%20Clinic%20%2B%20KKC%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%8B%E0%B8%B5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=KKC%20Clinic%20%2B%20KKC%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%8B%E0%B8%B5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%8B%E0%B8%B5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 30.0,
-        "avg_13w": 31.76923076923077,
-        "change_13w_vs_prev_13w_pct": 726.0,
-        "yoy_pct": null,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 34.0,
+        "avg_13w": 30.0,
+        "change_13w_vs_prev_13w_pct": 264.4859813084112,
+        "yoy_pct": -30.612244897959183,
         "peak_date": "2026-08-30",
         "peak_period": "Aug 30 – Sep 5, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 26,
-        "weeks": 253,
-        "mean": 5.561264822134388,
+        "nonzero_weeks": 27,
+        "weeks": 254,
+        "mean": 5.673228346456693,
         "median": 0.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
         "latest_value": 2.0,
-        "avg_13w": 2.230769230769231,
-        "change_13w_vs_prev_13w_pct": 625.0,
-        "yoy_pct": null,
+        "avg_13w": 2.076923076923077,
+        "change_13w_vs_prev_13w_pct": 237.5,
+        "yoy_pct": -50.0,
         "peak_date": "2026-08-30",
         "peak_period": "Aug 30 – Sep 5, 2026",
         "peak_value": 7.0,
-        "nonzero_weeks": 25,
-        "weeks": 253,
-        "mean": 0.39920948616600793,
+        "nonzero_weeks": 26,
+        "weeks": 254,
+        "mean": 0.40551181102362205,
         "median": 0.0
       }
     },
@@ -540,35 +540,35 @@
       "source_note": "Official website uses พรเกษม and Pornkasem.",
       "source_url": "https://www.pornkasemclinic.com/",
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%20%2B%20%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20Pornkasem%20Clinic%20%2B%20Pornkasem",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%20%2B%20%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20Pornkasem%20Clinic%20%2B%20Pornkasem",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
         "latest_value": 68.0,
-        "avg_13w": 70.6923076923077,
-        "change_13w_vs_prev_13w_pct": -3.4663865546218413,
-        "yoy_pct": 4.615384615384616,
+        "avg_13w": 70.38461538461539,
+        "change_13w_vs_prev_13w_pct": -3.481012658227841,
+        "yoy_pct": 1.4925373134328357,
         "peak_date": "2025-12-28",
         "peak_period": "Dec 28, 2025 – Jan 3, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 60.58102766798419,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 60.610236220472444,
         "median": 61.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
         "latest_value": 49.0,
-        "avg_13w": 50.61538461538461,
-        "change_13w_vs_prev_13w_pct": -3.9416058394160647,
-        "yoy_pct": 4.25531914893617,
+        "avg_13w": 50.38461538461539,
+        "change_13w_vs_prev_13w_pct": -4.099560761346997,
+        "yoy_pct": 2.083333333333333,
         "peak_date": "2025-12-28",
         "peak_period": "Dec 28, 2025 – Jan 3, 2026",
         "peak_value": 72.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 43.4901185770751,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 43.511811023622045,
         "median": 44.0
       }
     },
@@ -585,35 +585,35 @@
       "source_note": "Official website title uses Gangnam Clinic.",
       "source_url": "https://www.gangnamconsult.com/",
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=Gangnam%20Clinic%20%2B%20Gangnam%20Consult%20%2B%20%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%A1%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=Gangnam%20Clinic%20%2B%20Gangnam%20Consult%20%2B%20%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%81%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%A1%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 82.0,
-        "avg_13w": 75.61538461538461,
-        "change_13w_vs_prev_13w_pct": 6.3852813852813775,
-        "yoy_pct": 5.128205128205128,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 80.0,
+        "avg_13w": 76.6923076923077,
+        "change_13w_vs_prev_13w_pct": 9.200438116100775,
+        "yoy_pct": 9.58904109589041,
         "peak_date": "2026-10-11",
         "peak_period": "Oct 11 – 17, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 70.30434782608695,
-        "median": 70.0
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 70.34251968503936,
+        "median": 70.5
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 47.0,
-        "avg_13w": 43.15384615384615,
-        "change_13w_vs_prev_13w_pct": 6.8571428571428505,
-        "yoy_pct": 6.8181818181818175,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 46.0,
+        "avg_13w": 43.76923076923077,
+        "change_13w_vs_prev_13w_pct": 9.633911368015417,
+        "yoy_pct": 9.523809523809524,
         "peak_date": "2026-10-11",
         "peak_period": "Oct 11 – 17, 2026",
         "peak_value": 57.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 39.99209486166008,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 40.01574803149607,
         "median": 40.0
       }
     },
@@ -631,35 +631,35 @@
       "source_note": "User spelling retained; Seoul spelling added as likely English variant.",
       "source_url": null,
       "caveat": "Spelling is ambiguous: user wrote Souel; Seoul is included as a likely variant and should be reviewed.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=Souel%20Clinic%20%2B%20Seoul%20Clinic%20%2B%20Seoul%20Clinic%20Thailand%20%2B%20%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%82%E0%B8%8B%E0%B8%A5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=Souel%20Clinic%20%2B%20Seoul%20Clinic%20%2B%20Seoul%20Clinic%20Thailand%20%2B%20%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%82%E0%B8%8B%E0%B8%A5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 33.0,
-        "avg_13w": 28.076923076923077,
-        "change_13w_vs_prev_13w_pct": -35.96491228070175,
-        "yoy_pct": null,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 36.0,
+        "avg_13w": 27.0,
+        "change_13w_vs_prev_13w_pct": -37.765957446808514,
+        "yoy_pct": -36.84210526315789,
         "peak_date": "2026-04-19",
         "peak_period": "Apr 19 – 25, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 127,
-        "weeks": 253,
-        "mean": 20.48221343873518,
-        "median": 15.0
+        "nonzero_weeks": 128,
+        "weeks": 254,
+        "mean": 20.53937007874016,
+        "median": 17.5
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
         "latest_value": 4.0,
-        "avg_13w": 3.1538461538461537,
-        "change_13w_vs_prev_13w_pct": -34.92063492063492,
-        "yoy_pct": null,
+        "avg_13w": 3.076923076923077,
+        "change_13w_vs_prev_13w_pct": -35.48387096774193,
+        "yoy_pct": -33.33333333333333,
         "peak_date": "2026-03-15",
         "peak_period": "Mar 15 – 21, 2026",
         "peak_value": 11.0,
-        "nonzero_weeks": 127,
-        "weeks": 253,
-        "mean": 2.2964426877470356,
+        "nonzero_weeks": 128,
+        "weeks": 254,
+        "mean": 2.3031496062992125,
         "median": 2.0
       }
     },
@@ -677,35 +677,35 @@
       "source_note": "Official website title uses รมย์รวินท์คลินิก.",
       "source_url": "https://www.romrawin.com/",
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=Romrawin%20Clinic%20%2B%20Romrawin%20%2B%20%E0%B8%A3%E0%B8%A1%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%20%2B%20%E0%B8%A3%E0%B8%A1%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%A3%E0%B8%A1%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=Romrawin%20Clinic%20%2B%20Romrawin%20%2B%20%E0%B8%A3%E0%B8%A1%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%20%2B%20%E0%B8%A3%E0%B8%A1%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%A3%E0%B8%A1%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 63.0,
-        "avg_13w": 73.53846153846153,
-        "change_13w_vs_prev_13w_pct": 23.354838709677413,
-        "yoy_pct": 26.0,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 51.0,
+        "avg_13w": 70.6923076923077,
+        "change_13w_vs_prev_13w_pct": 15.889029003783103,
+        "yoy_pct": 50.0,
         "peak_date": "2026-08-23",
         "peak_period": "Aug 23 – 29, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 251,
-        "weeks": 253,
-        "mean": 49.69565217391305,
+        "nonzero_weeks": 252,
+        "weeks": 254,
+        "mean": 49.7007874015748,
         "median": 48.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 9.0,
-        "avg_13w": 10.23076923076923,
-        "change_13w_vs_prev_13w_pct": 22.018348623853196,
-        "yoy_pct": 28.57142857142857,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 7.0,
+        "avg_13w": 9.846153846153847,
+        "change_13w_vs_prev_13w_pct": 15.315315315315322,
+        "yoy_pct": 40.0,
         "peak_date": "2026-08-23",
         "peak_period": "Aug 23 – 29, 2026",
         "peak_value": 14.0,
-        "nonzero_weeks": 251,
-        "weeks": 253,
-        "mean": 6.932806324110672,
+        "nonzero_weeks": 252,
+        "weeks": 254,
+        "mean": 6.933070866141732,
         "median": 7.0
       }
     },
@@ -723,35 +723,35 @@
       "source_note": "Seeded from user-provided Thai name plus common English spelling.",
       "source_url": null,
       "caveat": null,
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=%E0%B8%99%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9E%E0%B8%A5%20%2B%20%E0%B8%99%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9E%E0%B8%A5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%99%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9E%E0%B8%A5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20Nitipon%20Clinic%20%2B%20Nitipon",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=%E0%B8%99%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9E%E0%B8%A5%20%2B%20%E0%B8%99%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9E%E0%B8%A5%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B8%99%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9E%E0%B8%A5%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20Nitipon%20Clinic%20%2B%20Nitipon",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 25.0,
-        "avg_13w": 26.0,
-        "change_13w_vs_prev_13w_pct": -27.311827956989244,
-        "yoy_pct": -10.714285714285714,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 23.0,
+        "avg_13w": 25.307692307692307,
+        "change_13w_vs_prev_13w_pct": -29.700854700854705,
+        "yoy_pct": -20.689655172413794,
         "peak_date": "2026-05-31",
         "peak_period": "May 31 – Jun 6, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 29.75889328063241,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 29.73228346456693,
         "median": 29.0
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 20.0,
-        "avg_13w": 21.46153846153846,
-        "change_13w_vs_prev_13w_pct": -26.57894736842106,
-        "yoy_pct": -13.043478260869565,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 19.0,
+        "avg_13w": 20.846153846153847,
+        "change_13w_vs_prev_13w_pct": -29.242819843342033,
+        "yoy_pct": -20.833333333333336,
         "peak_date": "2026-05-31",
         "peak_period": "May 31 – Jun 6, 2026",
         "peak_value": 82.0,
-        "nonzero_weeks": 253,
-        "weeks": 253,
-        "mean": 24.442687747035574,
+        "nonzero_weeks": 254,
+        "weeks": 254,
+        "mean": 24.421259842519685,
         "median": 24.0
       }
     },
@@ -769,36 +769,36 @@
       "source_note": "Seeded from user-provided brand plus Thai/English spelling variants.",
       "source_url": null,
       "caveat": "Ritz can include hotel/non-clinic intent; clinic aliases are included.",
-      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-10-31&geo=TH&q=THE%20RITZ%20Clinic%20%2B%20The%20Ritz%20Clinic%20%2B%20Ritz%20Clinic%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%A3%E0%B8%B4%E0%B8%97%E0%B8%8B%E0%B9%8C%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%20%E0%B8%A3%E0%B8%B4%E0%B8%97%E0%B8%8B%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
+      "trends_url": "https://trends.google.com/trends/explore?date=2022-01-01%202026-11-06&geo=TH&q=THE%20RITZ%20Clinic%20%2B%20The%20Ritz%20Clinic%20%2B%20Ritz%20Clinic%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%A3%E0%B8%B4%E0%B8%97%E0%B8%8B%E0%B9%8C%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%20%2B%20%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%20%E0%B8%A3%E0%B8%B4%E0%B8%97%E0%B8%8B%E0%B9%8C%20%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81",
       "metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 40.0,
-        "avg_13w": 42.07692307692308,
-        "change_13w_vs_prev_13w_pct": 36.06965174129354,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 45.0,
+        "avg_13w": 41.92307692307692,
+        "change_13w_vs_prev_13w_pct": 37.27959697732995,
         "yoy_pct": null,
         "peak_date": "2026-04-26",
         "peak_period": "Apr 26 – May 2, 2026",
         "peak_value": 100.0,
-        "nonzero_weeks": 128,
-        "weeks": 253,
-        "mean": 24.885375494071145,
-        "median": 28.0
+        "nonzero_weeks": 129,
+        "weeks": 254,
+        "mean": 24.96456692913386,
+        "median": 29.5
       },
       "comparison_metrics": {
-        "latest_date": "2026-10-25",
-        "latest_period": "Oct 25 – 31, 2026",
-        "latest_value": 3.0,
+        "latest_date": "2026-11-01",
+        "latest_period": "Nov 1 – 7, 2026",
+        "latest_value": 4.0,
         "avg_13w": 3.4615384615384617,
         "change_13w_vs_prev_13w_pct": 32.35294117647059,
         "yoy_pct": null,
         "peak_date": "2026-04-26",
         "peak_period": "Apr 26 – May 2, 2026",
         "peak_value": 8.0,
-        "nonzero_weeks": 128,
-        "weeks": 253,
-        "mean": 2.1185770750988144,
-        "median": 2.0
+        "nonzero_weeks": 129,
+        "weeks": 254,
+        "mean": 2.125984251968504,
+        "median": 2.5
       }
     }
   ],
@@ -2322,6 +2322,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 40.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 39.0,
+          "is_partial": true
         }
       ],
       "kliniq_surgery": [
@@ -3842,6 +3848,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 24.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 20.0,
+          "is_partial": true
         }
       ],
       "labx": [
@@ -5362,6 +5374,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 72.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 60.0,
+          "is_partial": true
         }
       ],
       "l_clinic": [
@@ -6882,6 +6900,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 52.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 60.0,
+          "is_partial": true
         }
       ],
       "acne_lab": [
@@ -8402,6 +8426,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 13.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 14.0,
+          "is_partial": true
         }
       ],
       "aura_bangkok": [
@@ -9922,6 +9952,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 64.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 63.0,
+          "is_partial": true
         }
       ],
       "aura_xpress": [
@@ -11442,6 +11478,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 57.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 48.0,
+          "is_partial": true
         }
       ],
       "vsquare": [
@@ -12962,6 +13004,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 73.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 70.0,
+          "is_partial": true
         }
       ],
       "slc": [
@@ -14482,6 +14530,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 25.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 23.0,
+          "is_partial": true
         }
       ],
       "apex": [
@@ -16002,6 +16056,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 80.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 79.0,
+          "is_partial": true
         }
       ],
       "kkc": [
@@ -17522,6 +17582,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 30.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 34.0,
+          "is_partial": true
         }
       ],
       "pornkasem": [
@@ -19042,6 +19108,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 68.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 68.0,
+          "is_partial": true
         }
       ],
       "gangnam": [
@@ -20562,6 +20634,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 82.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 80.0,
+          "is_partial": true
         }
       ],
       "souel": [
@@ -22074,7 +22152,7 @@
         {
           "date": "2026-10-18",
           "period": "Oct 18 – 24, 2026",
-          "value": 15.0,
+          "value": 14.0,
           "is_partial": false
         },
         {
@@ -22082,6 +22160,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 33.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 36.0,
+          "is_partial": true
         }
       ],
       "romrawin": [
@@ -23602,6 +23686,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 63.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 51.0,
+          "is_partial": true
         }
       ],
       "nitipon": [
@@ -25122,6 +25212,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 25.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 23.0,
+          "is_partial": true
         }
       ],
       "ritz": [
@@ -26642,6 +26738,12 @@
           "period": "Oct 25 – 31, 2026",
           "value": 40.0,
           "is_partial": false
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 45.0,
+          "is_partial": true
         }
       ]
     },
@@ -28417,6 +28519,13 @@
           "value": 40.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 39.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "kliniq_surgery": [
@@ -30189,6 +30298,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 1.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 1.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -31963,6 +32079,13 @@
           "value": 17.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 14.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "l_clinic": [
@@ -33735,6 +33858,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 9.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 10.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -35509,6 +35639,13 @@
           "value": 2.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 2.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "aura_bangkok": [
@@ -37281,6 +37418,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 15.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 14.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -39055,6 +39199,13 @@
           "value": 11.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 10.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "vsquare": [
@@ -40827,6 +40978,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 22.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 21.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -42601,6 +42759,13 @@
           "value": 6.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 5.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "apex": [
@@ -44373,6 +44538,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 13.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 13.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -46147,6 +46319,13 @@
           "value": 2.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 2.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "pornkasem": [
@@ -47919,6 +48098,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 49.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 49.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -49693,6 +49879,13 @@
           "value": 47.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 46.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "souel": [
@@ -51465,6 +51658,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 4.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 4.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -53239,6 +53439,13 @@
           "value": 9.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 7.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ],
       "nitipon": [
@@ -55011,6 +55218,13 @@
           "period": "Oct 25 – 31, 2026",
           "value": 20.0,
           "is_partial": false,
+          "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 19.0,
+          "is_partial": true,
           "anchor_scale": 1.0
         }
       ],
@@ -56785,6 +56999,13 @@
           "value": 3.0,
           "is_partial": false,
           "anchor_scale": 1.0
+        },
+        {
+          "date": "2026-11-01",
+          "period": "Nov 1 – 7, 2026",
+          "value": 4.0,
+          "is_partial": true,
+          "anchor_scale": 1.0
         }
       ]
     }
@@ -56793,7 +57014,7 @@
     {
       "title": "Google Trends",
       "url": "https://trends.google.com/trends/",
-      "publication_date": "Live service; extracted 2026-10-31",
+      "publication_date": "Live service; extracted 2026-11-06",
       "used_for": "Weekly Thailand search-interest source data."
     },
     {
